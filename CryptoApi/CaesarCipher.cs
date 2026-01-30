@@ -19,4 +19,9 @@ public class CaesarCipher
         }
         return new string(buffer);
     }
+      // Avkryptera med Caesar-chiffer
+  public string Decrypt(string input, int shift)
+  {
+      return Encrypt(input, -shift);
+  }
 }
