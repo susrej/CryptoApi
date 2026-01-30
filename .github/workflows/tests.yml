@@ -1,12 +1,12 @@
 name: Run unit tests
 
 on:
-  pull_request:
-    branches:
-      - development
   push:
     branches:
-      - main
+      - test/github-action-test-on-push
+#   push:
+#     branches:
+#       - main
 
 jobs:
   build-and-test:
