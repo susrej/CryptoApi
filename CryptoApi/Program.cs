@@ -10,4 +10,9 @@ app.MapGet("/encryption/encrypt", (string text, int shift) =>
 {
     return Results.Ok(cipher.Encrypt(text,shift));
 });
+
+app.MapGet("/encryption/decrypt", (string text, int shift) =>
+{
+    return Results.Ok(cipher.Decrypt(text, shift));
+});
 app.Run();
