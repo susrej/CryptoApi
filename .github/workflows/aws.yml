@@ -33,7 +33,7 @@ jobs:
         application_name: Crypto Api
         environment_name: CryptoApi--env
         version_label: ${{github.run_id}}
-        region: eu_north-1
+        region: eu-north-1
         deployment_package: site.zip
 
 
