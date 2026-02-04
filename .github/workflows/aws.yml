@@ -3,7 +3,8 @@ name: Build and push to aws
 on:
   push:
     branches:
-        -main
+        # -main
+        -feature/github-actions-aws
 
 jobs:
   build-and-test:
