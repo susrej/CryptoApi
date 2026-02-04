@@ -4,7 +4,7 @@ on:
   push:
     branches:
         # -main
-        -feature/github-actions-aws
+        - feature/github-actions-aws
 
 jobs:
   build-and-test:
