@@ -16,12 +16,13 @@ http://cryptoapi-env.eba-yseebhrq.eu-north-1.elasticbeanstalk.com/
 
 🔒 POST /encryption/encrypt
 Används för att kryptera text.
+Exempel: /encryption/encrypt?text=Hello&shift=3
 
 🔓 POST /encryption/decrypt
 Används för att avkryptera text.
+Exempel: /encryption/decrypt?text=Khoor&shift=3
 
 🌲 Git Flow
-
 Projektet använder Git Flow-strategi:
 feature/* – nya funktioner
 development – samlad utveckling och testning
